@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin 0;
+}
+
+body {
+  background-image: url('Image/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.circle-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  text-align: center;
+  padding: 10px;
+}
+
+@media (orientation: portrait) {
+body {overflow: auto;}
+}
+
+@media (orientation: landscape) {
+  body {overflow: hidden;}
+}
