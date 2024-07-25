@@ -13,6 +13,13 @@ body {
 h1 {
   text-align: center;
   color: white;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 .circle-img {
@@ -33,7 +40,7 @@ h1 {
 }
 
 @media (orientation: portrait) {
-body {overflow: hidden;}
+  body {overflow: hidden;}
 }
 
 @media (orientation: landscape) {
