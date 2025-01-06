@@ -3,8 +3,16 @@ html, body {
   margin 0;
 }
 
+@media (orientation: portrait) {
+  body {overflow: hidden;}
+}
+
+@media (orientation: landscape) {
+  body {overflow: hidden;}
+}
+
 body {
-  background-image: url('Image/Background.jpg');
+  background-image: url('Image/Background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -39,10 +47,15 @@ h2 {
   padding: 10px;
 }
 
-@media (orientation: portrait) {
-  body {overflow: hidden;}
+.copy-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
 }
 
-@media (orientation: landscape) {
-  body {overflow: hidden;}
+.qrcode-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
